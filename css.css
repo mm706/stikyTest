@@ -1,0 +1,58 @@
+body{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(254,229,115,0.52);
+
+}
+
+.welcome-title{
+    text-align: center;
+    font-size: 78px;
+    margin-top: 50px;
+    padding: 200px;
+}
+
+.header{
+    overflow: visible;
+    height: 2000px;
+}
+
+.container{
+
+    background-color: rgba(58, 79, 254, 0.8);
+    position: sticky;
+    top:0;
+
+
+}
+
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title{
+    display: flex;
+    color:white;
+    margin-left: 50px;
+    font-size: 34px;
+
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    margin-right: 50px;
+
+}
+
+.item-list{
+
+    font-size: 24px;
+    color:white;
+    display: inline;
+    cursor: pointer;
+    margin-right: 20px;
+}
